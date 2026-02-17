@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background: #01d5d5;
+  font-family: 'Press Start 2P', monospace;
+}
