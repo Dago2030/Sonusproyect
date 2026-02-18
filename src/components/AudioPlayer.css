@@ -1,0 +1,64 @@
+.audio-player {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #005500; /* verde oscuro de la Game Boy */
+  border: 4px solid #55aa55; /* verde medio para borde pixelado */
+  border-radius: 8px;
+  color: #aaffaa; /* verde claro para texto */
+  font-family: 'Press Start 2P', monospace; /* tipografía retro pixel */
+  text-align: center;
+  box-shadow: 0 0 10px #55aa55;
+}
+
+.audio-player h2 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.audio-player input[type="file"] {
+  background-color: #000000;
+  color: #aaffaa;
+  border: 2px solid #55aa55;
+  padding: 5px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.audio-player button {
+  background-color: #000000;
+  color: #aaffaa;
+  border: 2px solid #55aa55;
+  margin: 5px;
+  padding: 10px 15px;
+  font-family: monospace;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.audio-player button:hover {
+  background-color: #55aa55;
+  color: #000000;
+}
+
+.audio-player input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+  accent-color: #aaffaa;
+}
+
+.audio-player audio {
+  display: none; /* ocultamos el elemento nativo */
+}
+
+/* Reinicio básico */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000; /* fondo negro uniforme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
